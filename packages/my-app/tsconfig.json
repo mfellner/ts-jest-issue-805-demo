@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "preserveSymlinks": false
+  },
+  "references": [{ "path": "../my-library" }],
+  "include": ["./**/*"]
+}

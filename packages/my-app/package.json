@@ -1,0 +1,16 @@
+{
+  "name": "@mfellner/my-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf *.tsbuildinfo \"**/!jest.config.{js,d.ts,map}\"",
+    "test": "jest",
+    "start": "ts-node --files -P tsconfig.json main.ts"
+  },
+  "dependencies": {
+    "@mfellner/my-app": "*"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.22"
+  }
+}
