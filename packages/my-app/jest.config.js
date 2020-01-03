@@ -10,7 +10,7 @@ module.exports = {
       // "TypeError: Unable to require `.d.ts` file."
       //
       // See https://github.com/kulshekhar/ts-jest/issues/805#issuecomment-528935613
-      isolatedModules: false,
+      isolatedModules: true,
     },
   },
 };
