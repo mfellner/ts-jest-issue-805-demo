@@ -41,7 +41,7 @@ The error can also be reproduced by running all the test projects from the root 
 
 ## isolatedModules
 
-Set `isolatedModules` to `false` in `packages/my-app/jest.config.js`.
+Set `isolatedModules` to `true` in `packages/my-app/jest.config.js`.
 
 ## preserveSymlinks
 
